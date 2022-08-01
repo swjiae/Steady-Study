@@ -50,7 +50,7 @@ ex) 홍길동
 8. 본인 이름 폴더로 dir 변경 후 git add, commit 실행
    
     ```
-    $ git add *
+    $ git add 업로드 파일 이름
     $ git commit -m "커밋내용"
     ```
 
