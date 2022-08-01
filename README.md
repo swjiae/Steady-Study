@@ -40,9 +40,12 @@ ex) 홍길동
 
 6. git branch를 통해 브런치 생성 확인
 
+7. 로컬 Repo 폴더에 본인 이름(한글) 폴더 생성 후, 스터디 인증 파일 넣기
+</br>
+
 <img src="./etc/참고이미지.png" style="position: relative; margin-left: 45px; margin-bottom: 20px;">
 
-7. 로컬 Repo 폴더에 본인 이름(한글) 폴더 생성 후, 스터디 인증 파일 넣기
+</br>
 
 8. 본인 이름 폴더로 dir 변경 후 git add, commit 실행
    
