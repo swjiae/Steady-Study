@@ -28,40 +28,45 @@
 
 2. 본인의 Repository에 스터디 Repo가 생성
 
-3. 본인의 스터디 Repository로 들어가 주소 복사 및 로컬 폴더에 clone 진행 
+3. 본인의 remote 스터디 Repository로 들어가 주소 복사 및 로컬 폴더에 clone 진행 
 
-4. 로컬 Repository에서 Git Bash 실행
-
-5. git checkout -b 본인 영어이름 입력</br>
-ex) 홍길동
-    ```
-    $ git checkout -b gildong 
-    ```
-
-6. git branch를 통해 브런치 생성 확인
-
-7. 로컬 Repo 폴더에 본인 이름(한글) 폴더 생성 후, 스터디 인증 파일 넣기
+4. 로컬 Repo 폴더에 본인 이름(한글) 폴더 생성 후, 스터디 인증 파일 넣기
 </br>
 
 <img src="./etc/참고이미지.png" style="position: relative; margin-left: 45px; margin-bottom: 20px;">
 
 </br>
 
-8. 본인 이름 폴더로 dir 변경 후 git add, commit 실행
+5. 로컬 Repository (본인 이름 폴더 내)에서 Git Bash 실행</br>
+
+6. git add, commit 실행
    
     ```
     $ git add 업로드 파일 이름
     $ git commit -m "커밋내용"
     ```
 
-9. git push 방법 주의!</br>
-반드시 :heavy_exclamation_mark:**origin 본인 브런치 이름**:heavy_exclamation_mark:으로 푸시해야 함!!!
+    __# 오류 발생 시 대처법__</br>
+    1. 깃허브 remote Repo와 local Repo의 저장된 데이터가 일치하지 않아서 생기는 문제</br>
+    일반적으로 remote Repo에 저장된 파일이 local Repo에는 존재하지 않는 경우 발생.
+        ```
+        ! [rejected]          main -> main (fetch first)
+        error: failed to push some refs to 'https://github.com/...
+        ```
+        따라서, git pull을 통해 로컬 저장소의 파일을 내려받아야 함.</br>
+        본인이 업로드할 파일 삭제되지 않게 주의!</br>
+        ```
+        $ git pull
+        ```
+    </br>
+
+7. git push </br>
     ```
-    $ git push origin gildong
+    $ git push
     ```
 
 
-10. Pull Request 진행
+8. Pull Request 진행
 push 완료 후 본인 계정의 github 저장소에 들어오면 Compare & pull reqeust 버튼이 활성화됨.
 해당 버튼을 선택하여 메시지를 작성하고 PR을 생성.
 </br>
