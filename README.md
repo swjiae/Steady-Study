@@ -58,6 +58,12 @@
         ```
     </br>
 
+    - 브런치가 `main`이 아닌 경우, 다시 `main`으로 설정해주세요
+        ```
+        $ git checkout main
+        ```
+    </br>
+
 7. __git push__ </br>
     ```
     $ git push
