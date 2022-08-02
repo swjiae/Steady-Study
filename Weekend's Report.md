@@ -26,3 +26,26 @@
 - 김지오 : 
 - 나혜승 : 
 - 이수연 : 
+
+---
+
+### 출석율
+<table style="text-align: center;">
+<tr>
+<td>날짜</td>
+<td>이은혁</td>
+<td>고영석</td>
+<td>김지애</td>
+<td>김지오</td>
+<td>나혜승</td>
+<td>이수연</td>
+</tr>
+<tr>
+<td>2022.08.02</td>
+<td>O</td>
+<td>X</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+</tr>
