@@ -47,7 +47,7 @@
 <tr>
 <td>2022.08.02</td>
 <td>O</td>
-<td>X</td>
+<td>O</td>
 <td>O</td>
 <td>O</td>
 <td>O</td>
