@@ -32,9 +32,7 @@
 
 4. __로컬 Repo 폴더에 본인 이름(한글) 폴더 생성 후, 스터디 인증 파일 넣기__
 </br>
-
 <img src="./etc/참고이미지.png" style="position: relative; margin-left: 45px; margin-bottom: 20px;">
-
 </br>
 
 5. __로컬 Repository (본인 이름 폴더 내)에서 Git Bash 실행__</br>
