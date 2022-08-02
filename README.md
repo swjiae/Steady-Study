@@ -43,26 +43,29 @@
     $ git add 업로드 파일 이름
     $ git commit -m "커밋내용"
     ```
+<details style="margin-left : 25px !important;">
+    <summary> ❗ 오류 발생 시 클릭 ❗ </summary>
+    <div markdown="1">
 
-    __❗ <오류 발생 시 대처법> ❗__</br>
-    - 깃허브 remote Repo와 local Repo의 저장된 데이터가 일치하지 않아서 생기는 문제</br>
-    일반적으로 remote Repo에 저장된 파일이 local Repo에는 존재하지 않는 경우 발생.
-        ```
-        ! [rejected]          main -> main (fetch first)
-        error: failed to push some refs to 'https://github.com/...
-        ```
-        따라서, git pull을 통해 로컬 저장소의 파일을 내려받아야 함.</br>
-        본인이 업로드할 파일 삭제되지 않게 주의!</br>
-        ```
-        $ git pull
-        ```
+- 깃허브 remote Repo와 local Repo의 저장된 데이터가 일치하지 않아서 생기는 문제</br>
+    일반적으로 remote Repo에 저장된 파일이 local Repo에는 존재하지 않는 경우 발생.</br>
+    ```
+    ! [rejected]          main -> main (fetch first)
+    error: failed to push some refs to 'https://github.com/...
+    ```
+    따라서, git pull을 통해 로컬 저장소의 파일을 내려받아야 함.</br>
+    본인이 업로드할 파일 삭제되지 않게 주의!</br>
+    ```
+    $ git pull
+    ```
     </br>
 
-    - 브런치가 `main`이 아닌 경우, 다시 `main`으로 설정해주세요
-        ```
-        $ git checkout main
-        ```
-    </br>
+- 브런치가 `main`이 아닌 경우, 다시 `main`으로 설정해주세요
+    ```
+    $ git checkout main
+    ```
+</details>
+</br>
 
 ### 7. git push </br>
     ```
