@@ -75,7 +75,8 @@ push 완료 후 본인 계정의 github 저장소에 들어오면 Compare & pull
 <img src="./etc/2.png" style="position: relative; margin-left: 45px; margin-bottom: 20px;">
 </br>
 
-    [세팅 방법 참고](https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/)
+
+[세팅 방법 참고](https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/)
 
 </br>
 
