@@ -24,30 +24,30 @@
 </br>
 
 ## 초기 세팅(중요)
-1. 스터디 Repository로 들어가 우측 상단의 `Fork` 버튼 클릭
+1. __스터디 Repository로 들어가 우측 상단의 `Fork` 버튼 클릭__
 
-2. 본인의 Repository에 스터디 Repo가 생성
+2. __본인의 Repository에 스터디 Repo가 생성__
 
-3. 본인의 remote 스터디 Repository로 들어가 주소 복사 및 로컬 폴더에 clone 진행 
+3. __본인의 remote 스터디 Repository로 들어가 주소 복사 및 로컬 폴더에 clone 진행__
 
-4. 로컬 Repo 폴더에 본인 이름(한글) 폴더 생성 후, 스터디 인증 파일 넣기
+4. __로컬 Repo 폴더에 본인 이름(한글) 폴더 생성 후, 스터디 인증 파일 넣기__
 </br>
 
 <img src="./etc/참고이미지.png" style="position: relative; margin-left: 45px; margin-bottom: 20px;">
 
 </br>
 
-5. 로컬 Repository (본인 이름 폴더 내)에서 Git Bash 실행</br>
+5. __로컬 Repository (본인 이름 폴더 내)에서 Git Bash 실행__</br>
 
-6. git add, commit 실행
+6. __git add, commit 실행__
    
     ```
     $ git add 업로드 파일 이름
     $ git commit -m "커밋내용"
     ```
 
-    __# 오류 발생 시 대처법__</br>
-    1. 깃허브 remote Repo와 local Repo의 저장된 데이터가 일치하지 않아서 생기는 문제</br>
+    __❗ <오류 발생 시 대처법> ❗__</br>
+    - 깃허브 remote Repo와 local Repo의 저장된 데이터가 일치하지 않아서 생기는 문제</br>
     일반적으로 remote Repo에 저장된 파일이 local Repo에는 존재하지 않는 경우 발생.
         ```
         ! [rejected]          main -> main (fetch first)
@@ -60,13 +60,13 @@
         ```
     </br>
 
-7. git push </br>
+7. __git push__ </br>
     ```
     $ git push
     ```
 
 
-8. Pull Request 진행
+8. __Pull Request 진행__</br>
 push 완료 후 본인 계정의 github 저장소에 들어오면 Compare & pull reqeust 버튼이 활성화됨.
 해당 버튼을 선택하여 메시지를 작성하고 PR을 생성.
 </br>
