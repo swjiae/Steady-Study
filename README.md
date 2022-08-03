@@ -23,7 +23,21 @@
 
 </br>
 
-## 초기 세팅(중요)
+## 파일 업로드 방법 (중요)
+초기 세팅을 마친 경우,</br>
+본인 이름 폴더 내에 파일을 넣고 커밋 진행</br> 
+```
+$ git add 파일
+$ git commit -m "커밋메시지"
+$ git push 
+```
+❗ git push 이후</br>
+❗ 본인의 Github fork repository에서 [Pull Request]를 눌러야 파일 전송됨.</br>
+❗ 아래 '초기 세팅 방법' 5번 ~ 8번 과정 참조</br>
+</br>
+
+
+## 초기 세팅 방법
 ### 1. 스터디 Repository로 들어가 우측 상단의 `Fork` 버튼 클릭
 
 ### 2. 본인의 Repository에 스터디 Repo가 생성
@@ -44,7 +58,7 @@
     $ git commit -m "커밋내용"
     ```
 <details style="margin-left : 25px !important;">
-    <summary> ❗ 오류 발생 시 클릭 ❗ </summary>
+    <summary>  오류 발생 시 클릭❗ </summary>
     <div markdown="1">
 
 - 깃허브 remote Repo와 local Repo의 저장된 데이터가 일치하지 않아서 생기는 문제</br>
@@ -75,7 +89,10 @@
 
 ### 8. Pull Request 진행</br>
 push 완료 후 본인 계정의 github 저장소에 들어오면 Compare & pull reqeust 버튼이 활성화됨.
-해당 버튼을 선택하여 메시지를 작성하고 PR을 생성.
+해당 버튼을 선택하여 메시지를 작성하고 PR을 생성.</br>
+</br>
+__이 후부터는 파일 업로드 시 5번 ~ 8번을 진행하면 됩니다.__
+
 </br>
 <img src="./etc/1.png" style="position: relative; margin-left: 45px; margin-bottom: 20px;">
 </br>
