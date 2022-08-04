@@ -51,3 +51,12 @@
 <td>O</td>
 <td>O</td>
 </tr>
+<tr>
+<td>2022.08.04</td>
+<td>O</td>
+<td>O</td>
+<td>병가</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+</tr>
