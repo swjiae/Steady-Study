@@ -59,10 +59,10 @@ $ git push
 
 ### 6. git add, commit 실행
    
-    ```
-    $ git add 업로드 파일 이름
-    $ git commit -m "커밋내용"
-    ```
+```
+$ git add 업로드 파일 이름
+$ git commit -m "커밋내용"
+```
 <details style="margin-left : 25px !important;">
     <summary>  오류 발생 시 클릭❗ </summary>
     <div markdown="1">
@@ -88,9 +88,9 @@ $ git push
 </br>
 
 ### 7. git push </br>
-    ```
-    $ git push
-    ```
+```
+$ git push
+```
 
 
 ### 8. Pull Request 진행</br>
