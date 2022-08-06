@@ -23,6 +23,12 @@
 
 </br>
 
+## Weekend's Report
+- 주, 월간 목표 설정과 성과와 스터디 참여 기록을 보관합니다.
+- [Weekend's Report](./Weekend's%20Report.md)
+
+</br>
+
 ## 파일 업로드 방법 (중요)
 초기 세팅을 마친 경우,</br>
 본인 이름 폴더 내에 파일을 넣고 커밋 진행</br> 
