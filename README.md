@@ -24,7 +24,7 @@
 </br>
 
 ## Weekend's Report
-- 주, 월간 목표 설정과 성과와 스터디 참여 기록을 보관합니다.
+- 주, 월간 목표와 스터디 참여 기록을 보관합니다.
 - [Weekend's Report](./Weekend's%20Report.md)
 
 </br>
