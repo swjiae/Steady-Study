@@ -61,6 +61,15 @@
 <td>O</td>
 <td>O</td>
 </tr>
+<tr>
+<td>2022.08.09</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+</tr>
 </table>
 </br>
 
@@ -71,7 +80,7 @@
 
 - 이은혁 : :white_check_mark: ~~[백준 브루트포스 문제](https://www.acmicpc.net/step/22) (5문제) 모두 풀기~~ 
 - 고영석 : :white_check_mark: ~~백준 최소 4문제 풀기~~
-- 김지애 : :white_check_mark: 
+- 김지애 : :white_check_mark: (병가)
 - 김지오 : :white_check_mark: ~~교수님이 매터모스트에 주신 워크샵이랑 숙제파일 1~4까지 풀기~~
 - 나혜승 : :white_check_mark: ~~"백준 문제 최소 5개 풀기"~~
 - 이수연 : :white_check_mark:
