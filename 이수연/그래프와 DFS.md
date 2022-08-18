@@ -40,7 +40,7 @@ ex) 회사 조직도(상하관계)
 
 # 그래프 저장: 그래프를 코드로 표현하기
 
-![KakaoTalk_Photo_2022-08-18-23-12-03.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de29fb47-9e48-41b4-b1ef-c29712cc481f/KakaoTalk_Photo_2022-08-18-23-12-03.jpeg)
+<img src="../../Downloads/KakaoTalk_Photo_2022-08-18-23-12-03.jpeg" width="200"/>
 
 ## 1. 인접행렬(이차원 리스트)
 
@@ -70,7 +70,7 @@ brr = [[1,2],
      []]
 ```
 
-![KakaoTalk_Photo_2022-08-18-23-15-03.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7140456c-6ee9-4097-9f48-170916d5ee3e/KakaoTalk_Photo_2022-08-18-23-15-03.jpeg)
+<img src="../../Downloads/KakaoTalk_Photo_2022-08-18-23-15-03.jpeg" width="200"/>
 
 ## 3. 이진 트리에 한해서 일차원리스트 - 가지가 2 개뿐
 
@@ -198,8 +198,7 @@ print(cnt)
 
 ## 연습문제
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1d9cea26-36f3-4536-b0ca-548544330c52/Untitled.png)
-
+![](../../Downloads/Untitled.png)
 출발점을 입력 받습니다.
 입력받은 출발점 알파벳 부터  E 가 써있는곳 까지 갈 수 있는 방법이
 몇가지 있는지 출력해 주세요.
@@ -241,7 +240,8 @@ print(cnt)
 ```
 
 ## 연습문제
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ce4f1e5e-9d61-4a4c-a97d-766477df4b7f/Untitled.png)
+
+![](../../Downloads/Untitled1.png)
 
 ```python
 
