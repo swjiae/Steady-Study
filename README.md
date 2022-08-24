@@ -49,8 +49,12 @@ $ git push
 스터디 Repository로 들어가 우측 상단의 `Fork` 버튼 클릭.
 본인의 Repository에 스터디 Repo가 생성
 
+</br> 
+
 ### 2. 원격 저장소 클론
 본인의 remote 스터디 Repository로 들어가 주소 복사 및 로컬 폴더에 clone 진행
+
+</br> 
 
 ### 3. 폴더 생성 및 파일 저장
 로컬 Repo 폴더에 본인 이름(한글) 폴더 생성 후, 스터디 인증 파일 넣기
@@ -94,6 +98,7 @@ $ git commit -m "커밋내용"
 $ git push
 ```
 
+</br> 
 
 ### 6. Pull Request 진행</br>
 push 완료 후 본인 계정의 github 저장소에 들어오면 Compare & pull reqeust 버튼이 활성화됨.
