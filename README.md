@@ -45,21 +45,22 @@ $ git push
 
 
 ## 초기 세팅 방법
-### 1. 스터디 Repository로 들어가 우측 상단의 `Fork` 버튼 클릭
+### 1. 스터디 원격저장소 Fork
+스터디 Repository로 들어가 우측 상단의 `Fork` 버튼 클릭.
+본인의 Repository에 스터디 Repo가 생성
 
-### 2. 본인의 Repository에 스터디 Repo가 생성
+### 2. 원격 저장소 클론
+본인의 remote 스터디 Repository로 들어가 주소 복사 및 로컬 폴더에 clone 진행
 
-### 3. 본인의 remote 스터디 Repository로 들어가 주소 복사 및 로컬 폴더에 clone 진행
-
-### 4. 로컬 Repo 폴더에 본인 이름(한글) 폴더 생성 후, 스터디 인증 파일 넣기
+### 3. 폴더 생성 및 파일 저장
+로컬 Repo 폴더에 본인 이름(한글) 폴더 생성 후, 스터디 인증 파일 넣기
 </br>
 <img src="./etc/참고이미지.png" style="position: relative; margin-left: 45px; margin-bottom: 20px;">
 </br>
 
-### 5. 로컬 Repository (본인 이름 폴더 내)에서 Git Bash 실행</br>
-
-### 6. git add, commit 실행
-   
+### 4. git add, commit, push 진행
+로컬 Repository (본인 이름 폴더 내)에서 Git Bash 실행</br>
+git add, git commit 입력
 ```
 $ git add 업로드 파일 이름
 $ git commit -m "커밋내용"
@@ -88,17 +89,17 @@ $ git commit -m "커밋내용"
 </details>
 </br>
 
-### 7. git push </br>
+### 5. git push </br>
 ```
 $ git push
 ```
 
 
-### 8. Pull Request 진행</br>
+### 6. Pull Request 진행</br>
 push 완료 후 본인 계정의 github 저장소에 들어오면 Compare & pull reqeust 버튼이 활성화됨.
 해당 버튼을 선택하여 메시지를 작성하고 PR을 생성.</br>
 </br>
-__이 후부터는 파일 업로드 시 5번 ~ 8번을 진행하면 됩니다.__
+__이 후부터는 파일 업로드 시 4번 ~ 6번을 진행하면 됩니다.__
 
 </br>
 <img src="./etc/1.png" style="position: relative; margin-left: 45px; margin-bottom: 20px;">
