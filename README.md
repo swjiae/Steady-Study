@@ -1,19 +1,26 @@
 # Steady Study :blue_book:
-## 스터디 방향
+## Our Direction
 저희 스터디는 꾸준한 목표 성취와 학습을 추구합니다. 
 - 목표를 설정하고 브리핑을 하며 스스로를 평가합니다.
 - 온라인 스터디를 통해 자율 학습을 독려합니다.
 
 </br>
 
-## 스터디 룰
+## Study Rules
 - 토요일 - 주, 월 단위 목표 설정 및 성취 여부 평가 (웹엑스)
 - 월, 수요일 - 공부 인증(깃허브 커밋)
 - 화, 목요일 - 온라인 스터디 (웹엑스)
 
 </br>
 
-## 스터디 참가자
+
+## Study Report
+- 주, 월간 목표와 스터디 참여 기록을 보관합니다.
+- [Weekend's Report](./Weekend's%20Report.md)
+
+</br>
+
+## Participants
 - 이은혁 :star:
 - 고영석
 - 김지애
@@ -24,13 +31,8 @@
 
 </br>
 
-## Weekend's Report
-- 주, 월간 목표와 스터디 참여 기록을 보관합니다.
-- [Weekend's Report](./Weekend's%20Report.md)
-
-</br>
-
 ---
+
 </br> 
 
 ## 파일 업로드 방법 (중요)
