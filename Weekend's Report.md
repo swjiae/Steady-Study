@@ -53,7 +53,7 @@
 <td>2022.08.04</td>
 <td>O</td>
 <td>O</td>
-<td>사유승인</td>
+<td>병가</td>
 <td>O</td>
 <td>O</td>
 <td>O</td>
@@ -152,10 +152,10 @@
 <td>2022.08.26</td>
 <td>O</td>
 <td>O</td>
-<td>사유승인</td>
+<td>사유</td>
 <td>O</td>
 <td>O</td>
-<td>사유승인</td>
+<td>사유</td>
 <td>O</td>
 <td>(개인사유로 인한 불참)</td>
 </tr>
