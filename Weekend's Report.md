@@ -36,6 +36,7 @@
 <td>나혜승</td>
 <td>이수연</td>
 <td>이문삼</td>
+<td>비 고</td>
 </tr>
 <tr>
 <td>2022.08.02</td>
@@ -46,16 +47,18 @@
 <td>O</td>
 <td>O</td>
 <td>-</td>
+<td></td>
 </tr>
 <tr>
 <td>2022.08.04</td>
 <td>O</td>
 <td>O</td>
-<td>병가</td>
+<td>사유승인</td>
 <td>O</td>
 <td>O</td>
 <td>O</td>
 <td>-</td>
+<td>(코로나로 인한 불참)</td>
 </tr>
 <tr>
 <td>2022.08.06</td>
@@ -66,6 +69,7 @@
 <td>O</td>
 <td>O</td>
 <td>-</td>
+<td></td>
 </tr>
 <tr>
 <td>2022.08.09</td>
@@ -76,6 +80,7 @@
 <td>O</td>
 <td>O</td>
 <td>-</td>
+<td></td>
 </tr>
 <tr>
 <td>2022.08.11</td>
@@ -86,6 +91,7 @@
 <td>O</td>
 <td>O</td>
 <td>-</td>
+<td></td>
 </tr>
 <tr>
 <td>2022.08.13</td>
@@ -96,6 +102,7 @@
 <td>O</td>
 <td>O</td>
 <td>-</td>
+<td></td>
 </tr>
 <tr>
 <td>2022.08.16</td>
@@ -106,6 +113,7 @@
 <td>O</td>
 <td>O</td>
 <td>O</td>
+<td></td>
 </tr>
 <tr>
 <td>2022.08.18</td>
@@ -116,6 +124,7 @@
 <td>O</td>
 <td>O</td>
 <td>O</td>
+<td></td>
 </tr>
 <tr>
 <td>2022.08.20</td>
@@ -126,6 +135,7 @@
 <td>O</td>
 <td>O</td>
 <td>O</td>
+<td></td>
 </tr>
 <tr>
 <td>2022.08.23</td>
@@ -136,6 +146,18 @@
 <td>O</td>
 <td>O</td>
 <td>O</td>
+<td></td>
+</tr>
+<tr>
+<td>2022.08.26</td>
+<td>O</td>
+<td>O</td>
+<td>사유승인</td>
+<td>O</td>
+<td>O</td>
+<td>사유승인</td>
+<td>O</td>
+<td>(개인사유로 인한 불참)</td>
 </tr>
 </table>
 </br>
