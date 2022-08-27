@@ -223,4 +223,5 @@
 
 </br>
 
-[브리핑 내용 보러가기]("https://github.com/itmakesmesoft/Steady-Study/discussions")
+
+[브리핑 내용 보러가기](https://github.com/itmakesmesoft/Steady-Study/discussions)
