@@ -183,7 +183,7 @@
 - 김지애 : :white_check_mark: (병가)
 - 김지오 : :white_check_mark: ~~교수님이 매터모스트에 주신 워크샵이랑 숙제파일 1~4까지 풀기~~
 - 나혜승 : :white_check_mark: ~~"백준 문제 최소 5개 풀기"~~
-- 이수연 : :white_check_mark:
+- 이수연 : :white_check_mark: 
 
 </br>
 
@@ -209,8 +209,9 @@
 - 이수연 : :white_check_mark: ~~수업 내용 티스토리 정리 및 커밋 2회 / 운동 2회~~
 - 이문삼 : :white_check_mark: ~~기술 블로그 만들고 글 1개~~
 
+</br>
 
-### 주간 목표 및 달성률(2022.08.21 ~ 2022.08.27)
+### 주간 목표 및 달성률(2022.08.21 ~ 2022.08.27) 
 
 - 이은혁 : :white_check_mark: ~~과목평가, 월말 평가 대비 공부. 시험범위 리뷰하고 부족한 부분 다시 풀어보기. 그동안 푼 민코딩 문제 파일로 저장해두기.~~
 - 고영석 : :white_check_mark: ~~SWEA 남은 문제 풀기 + 노션에 올리기 +IM 시험 대비하기~~
@@ -219,3 +220,7 @@
 - 나혜승 : :white_check_mark: ~~수업 복습, 민코딩 1일 최소 1레벨 풀기, 부족한 개념 공부하기~~
 - 이수연 : :white_check_mark: ~~주 5회 기술블로그 올리기, 운동 2회~~
 - 이문삼 : :white_check_mark: ~~WEB APIs, 브라우저 DOM까지 정리해서 올리기~~
+
+</br>
+
+[브리핑 내용 보러가기]("https://github.com/itmakesmesoft/Steady-Study/discussions")
