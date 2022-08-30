@@ -1,0 +1,42 @@
+## 슬라이딩 윈도우
+
+: 구간의 길이가 주어져 있을 때만 사용 가능
+
+연습문제) 최소값 구간을 찾는 문제
+
+          0  1  2  3  4  5  6  7  8
+
+arr = \[7, 2 ,4, 3, 2, 1, 1, 9, 2\]
+
+초기값 : 인덱스 0 ~3까지 더해준다 (구간의 길이 4) -> 16
+
+0부터 (배열의 길이 - 구간의 길이) 만큼 for 문을 돈다.
+
+코드에서는 for i in range(n-m+1):
+
+| i | 0 | 1 | 2 | 3 | 4 | 5 |
+| --- | --- | --- | --- | --- | --- | --- |
+| sum 과정 | 16(초기값)      \+ 2 (index 4)      \- 7 (index 0)  | 11      \+ 1 (index 5)      \- 2 (index 1) | 10      \+ 1 (index 6)      \- 4 (index 2) | 7      \+ 9 (index 7)      \- 3 (index 3) | 13      \+ 2 (index 8)      \- 2 (index 4) | 13      break          |
+| sum 결과 | 11 | 10 | 7 (최소값) | 13 | 13 |   |
+
+```
+n = int(input())
+arr = list(map(int, input().split()))
+m = 4
+sum = 0
+Min = 10e28
+
+# 초기값 설정(인덱스 0부터 구간의 길이가 4가 되게 더함) 
+for i in range(m):
+    sum += arr[i]
+
+# 한칸씩 인덱스를 증가시키며 맨 앞 인덱스를 빼주고 추가되는 인덱스를 더해줌
+for i in range(n-m+1):
+    if sum < Min:
+        Min=sum
+    if i==n-m: break
+    sum+=arr[i+m]
+    sum-=arr[i]
+
+print(Min)
+```
