@@ -170,6 +170,17 @@
 <td>O</td>
 <td></td>
 </tr>
+<tr>
+<td>2022.08.30</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>사유</td>
+<td>O</td>
+<td>병가</td>
+<td>O</td>
+<td>(개인사유로 인한 불참)</td>
+</tr>
 </table>
 </br>
 
