@@ -219,6 +219,8 @@ WWW(World Wide Web)
 
 - 응용프로그램의 데이터 구조를 정의하고 데이터베이스의 기록을 관리
   
+  > 
+  
   > Template
 
 - 레이아웃과 화면을 처리
@@ -282,8 +284,6 @@ python manage.py runserver
 중지하려면 ctrl c
 
 ---
-
-
 
 새로운 애플리케이션 생성
 
