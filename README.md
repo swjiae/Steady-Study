@@ -1,4 +1,8 @@
+
+![LOGO](./etc/logo.png)
 # Steady Study :blue_book:
+
+
 ## Our Direction
 저희 스터디는 꾸준한 목표 성취와 학습을 추구합니다. 
 - 목표를 설정하고 브리핑을 하며 스스로를 평가합니다.
