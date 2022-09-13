@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Update Page</h1>
+                                    {% comment %} update는 pk가 필요 {% endcomment %}
+    <form action="{% url 'accounts:update' article.pk %}" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="수정하기">
+    </form>
+    <a href="{% url 'article:index'%}">뒤로가기</a>
+{% endblock content %}
