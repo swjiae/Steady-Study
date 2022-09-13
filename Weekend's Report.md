@@ -76,6 +76,17 @@
 <td colspan='7'>추석 연휴 기간 온라인 스터디 자율 참석 (09.08 ~ 09.12)</td>
 <td></td>
 </tr>
+<tr>
+<td>2022.09.13</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td></td>
+</tr>
 </table>
 </br>
 
