@@ -87,6 +87,28 @@
 <td>O</td>
 <td></td>
 </tr>
+<tr>
+<td>2022.09.15</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td></td>
+</tr>
+<tr>
+<td>2022.09.17</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>사유</td>
+<td>O</td>
+<td>이사로 인한 불참</td>
+</tr>
 </table>
 </br>
 
