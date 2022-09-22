@@ -109,6 +109,17 @@
 <td>O</td>
 <td>이사로 인한 불참</td>
 </tr>
+<tr>
+<td>2022.09.20</td>
+<td>지각</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td></td>
+</tr>
 </table>
 </br>
 
