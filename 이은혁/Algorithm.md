@@ -658,10 +658,285 @@ print(cnt)
 
 ---
 
-[스택(Stack)](https://www.notion.so/Stack-202b6ee78e554b998d00b646468a4532)
+### 자료 구조
 
-[재귀(Recursion)](https://www.notion.so/Recursion-af27b4a5e9864622a2073b900b607bcb)
+ : 데이터를 저장하거나 관리하는 방식
 
-[동적계획법(DP)](https://www.notion.so/DP-e25a117c02e44eaf89cc9e7014dde3b3)
+- 큐 (FIFO, First-In-First-Out : 선입선출)
+- 스택 (LIFO, Last-In-First-Out : 후입선출)
 
-[깊이우선탐색(DFS)](https://www.notion.so/DFS-b37ad2c242db43b188a50d7dca712556)
+### 선형 자료구조
+
+- 리스트 ⇒ 값 삽입 또는 삭제 시 이후의 인덱스 값을 모두 바꿔야 하기 때문에 느림
+- 링크드 리스트 ⇒ 값의 추가 삭제가 용이
+    
+    
+
+### 비선형 자료구조
+
+- 그래프 : 현상이나 사물을 정점(Vertex)과 간선(Edge)으로 표현하는 것으로, data들의 관계를 나타내고 표현할 때 사용
+    - 정점 : 대상이나 개체를 나타냄
+    - 간선 : 대상이나 개체간의 관계를 나타냄
+- 그래프의 종류
+    - 유향 그래프(Directed Graph) : 간선의 방향이 있는 그래프
+        - 트리 구조 : 단방향, 부모 자식 관계. 사이클이 발생하지 않음
+        (최상단 노드 : 루트 노드, 최하단 노드 : 리프 노드)
+            
+            ```python
+            # 인접 행렬
+            arr = [
+            [0,1,1,0,0,0],
+            [0,0,0,1,1,0],
+            [0,0,0,0,0,1],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0]
+            ]
+            
+            # 인접 리스트
+            brr = [
+            [1,2], # 0번 노드의 인접 리스트
+            [3,4], # 1번 노드의 인접 리스트
+            [5],   # 2번 노드의 인접 리스트
+            [],    # 3번 노드의 인접 리스트
+            [],    # 4번 노드의 인접 리스트
+            []     # 5번 노드의 인접 리스트
+            ]
+            
+            # 이진트리를 1차원 배열에 담는 법
+            # 루트노드를 1번 인덱스로,
+            # 자식노드는 직계부모 노드 인덱스의 x2(왼쪽), x2+1(오른쪽)에 저장,
+            crr = ['_','A','B','C','D','E','F']
+            ```
+            
+            ```python
+            name = ['A','B','C','D','E']
+            arr = [
+                [0,1,1,0,0],# A가 연결한 노드 인덱스
+                [0,0,0,0,1],# B가 연결한 노드 인덱스
+                [0,1,0,0,0],
+                [0,1,0,0,0],
+                [0,0,0,1,0],
+            ]
+            res = [0]*5
+            max_idx = 0
+            for i in range(5):
+                for j in range(5):
+                    res[i] += arr[j][i]
+                    if res[i]>res[max_idx]:
+                        max_idx = i
+            print(name[max_idx])
+            ```
+            
+        
+        - 트리가 아닌 구조 : 양방향 가능, 경우에 따라 사이클 발생할 수도 있음.
+    - 무향 그래프(Undirected Graph) : 간선의 방향이 없는 그래프
+- 그래프의 표현 방법
+    - 인접 행렬을 이용한 방법
+        
+        그래프 G=(V,E)에서 정점의 총 수가 n이라고 하고, n x n 행렬을 준비한다. 정점 i와 정점 j간에 간선이 있으면 행렬의 (i, j) 원소롸 (j, i) 원소의 값을 1로 할당한다.
+        
+        - 장점 : 이해하기 쉽고 간선의 존재 여부를 즉각 알 수 있음
+        - 단점 : n x n 행렬이 필요하므로 n제곱에 비례하는 공간이 필요하고, 행렬의 준비 과정에서 행렬의 모든 원소를 채우는데 n제곱에 비례하는 시간이 소요
+        - 무향 그래프와 인접 행렬 표현
+            
+            ![사진](./img/130.png)
+            
+            [https://kyungseop.tistory.com/17](https://kyungseop.tistory.com/17)
+            
+        - 가중치를 가진 무향 그래프와 인접 행렬 표현
+            
+            ![사진](./img/131.png)
+            
+            [https://kyungseop.tistory.com/17](https://kyungseop.tistory.com/17)
+            
+        - 유향 그래프와 인접행렬 표현
+            
+            ![사진](.img/132.png)
+            
+            [https://kyungseop.tistory.com/17](https://kyungseop.tistory.com/17)
+            
+        - 가중치를 가진 유향 그래프와 인접 행렬 표현
+            
+            ![사진](./img/133.png)
+            
+            [https://kyungseop.tistory.com/17](https://kyungseop.tistory.com/17)
+            
+    
+    - 인접 리스트를 이용한 방법
+        - 각 정점에 인접한 정점들을 리스트로 표현하는 방법.
+        - 각 정점마다 리스트를 만들고, 인접한 정점들을 연결 리스트로 추가
+            - 장점 : 공간이 간선의 총수에 비례하는 양만큼 필요하므로 대체로 행렬 표현에 비해 공간 낭비가 없음. 모든 가능한 정점 쌍에 비해 간선의 수가 적을때 유용
+            - 단점 : 정점 i 와 정점 j 간에 간선이 존재하는지 알아볼 때 리스트에서 차례로 훑어야 하므로 인접 행렬 표현보다는 시간이 오래 걸림. 특히 간선이 많은 최악의 경우 n에 비례하는 시간이 들 수도 있다.
+        - 무향 그래프와 인접 리스트 표현
+            
+            ![사진](./img/134.png)
+            
+            [https://kyungseop.tistory.com/17](https://kyungseop.tistory.com/17)
+            
+        - 가중치를 가진 그래프의 인접 리스트 표현
+            
+            ![사진](./img/135.png)
+            
+            [https://kyungseop.tistory.com/17](https://kyungseop.tistory.com/17)
+            
+    - 인접배열
+        - 각 정점에 연결된 정점들을 연결 리스트로 저장하는 대신 배열로 저장.
+            - 장점 : 연결 리스트의 포인터를 관리하는 번거로움에서 해방될 뿐만 아니라 두 정점의 인접여부를 체크하는 시간도 대폭 줄일 수 있음
+        - 무향 그래프와 인접 배열 표현
+            
+            ![사진](./img/136.png)
+            
+            [https://kyungseop.tistory.com/17](https://kyungseop.tistory.com/17)
+            
+    - 해시 테이블
+        - 인접 배열을 해시 테이블로 대체 가능
+    
+
+### 부분집합(Subset)
+
+- 집합에 포함된 원소들을 선택하는 것
+- 다수의 중요 알고리즘들이 원소들의 그룹에서 최적의 부분 집합을 찾는 것
+- N개의 원소를 포함한 집합
+    - 자기 자신과 공집합을 포함한 모든 부분집합(Power set)의 개수는 $2^n$개
+    - 원소의 수가 증가하면 부분집합의 개수는 지수적으로 증가
+
+### 단순하게 모든 부분집합을 생성하는 방법
+
+- 4개의 원소를 포함한 집합에 대한 Power set 구하기
+    
+    ```python
+    arr = [1,2,3,4]
+    bit = [0]*4
+    for i in range(2):
+        bit[0]=i
+        for j in range(2):
+            bit[1]=j
+            for k in range(2):
+                bit[2]=k
+                for l in range(2):
+                    bit[3]=l
+                    for i in range(4): # 출력 부
+                        if bit[i]: print(arr[i], end='')
+                    print()
+    
+    ```
+    
+
+
+### 바이너리 카운팅(Binary Counting)
+
+- 원소 수에 해당하는 N개의 비트열 이용
+- n번째 비트값이 1이면 n번째 원소가 포함되었음을 의미
+
+### 바이너리 카운팅을 통한 사전적 순서(Lexicographic Order)
+
+- 부분집합을 생성하기 위한 가장 자연스러운 방법
+- 바이너리 카운팅(Binary Counting)은 사전적 순서로 생성하기 위한 가장 간단한 방법
+    
+    ```python
+    arr = [1,2,3,4]
+    n = len(arr)
+    
+    for i in range(0, (1<<n)):  # 1<<n: 부분집합의 개수
+        for j in range(0, n):   # 원소의 수만큼 비트를 비교
+            if i & (1<<j):      # i의 j번째 비트가 1이면 j번째 원소 출력
+                print('%d'%arr[j], end='')
+        print()
+    ```
+    
+
+### 최대공약수(Greatest Common Divisor)
+
+- 원시적인 방법
+    
+    ```python
+    answer = 0
+    a, b = map(int, input().split())
+    for i in range(2, min(a,b)+1):
+        if a%i==0 and b%i==0:
+            answer=i
+    ```
+    
+
+- 개선된 방법(유클리도 호제법) => 최초의 알고리즘
+    
+    ```python
+    a, b = map(int, input().split())
+    answer = 0
+    while b:
+        answer = a%b
+        a=b
+        b=answer
+    print(a)
+    ```
+    
+
+### 최소공배수(Least Common Multiple)
+
+- 먼저 최대공약수를 구하고, 두 수를 곱한 뒤 최대공약수로 나눠주면 최소공배수가 됨
+    
+    ```python
+    # 1. 최대공약수를 구한 뒤
+    # 2. LCM = GCD*(A/GCD)*(B/GCD) 최소공배수 공식을 대입
+    
+    A, B = map(int, input().split())
+    answer = 0
+    GCD, b = A, B
+    while b:
+        answer=GCD%b
+        GCD=b
+        b=answer
+    LCM = A*B/GCD
+    print(LCM)
+    ```
+    
+
+### 소수 구하기(Prime Number)
+
+소수 : 1과 자기 자신으로만 나눌 수 있는 수
+
+- 원시적인 방법
+
+```python
+a = int(input())
+flag = True
+if a>2:
+    for i in range(2, a):
+        if a%i==0:
+            flag = False
+            break
+if flag: print("소수")
+else: print("소수 아님")
+```
+
+- 개선된 방법(에라토스테네스의 체)
+
+```python
+n = int(input())
+check = [True]*(n+1)
+answer = []
+for i in range(2, n+1): # 2부터 입력받은 수까지 확인
+    if check[i]==True: answer.append(i)
+    for j in range(i+i, n+1, i): # 확인하고자 하는 배수에 해당하는 값을 False
+        check[j]=False
+print(answer)
+```
+
+- 더욱 개선된 방법(순회 범위 축소)
+
+```python
+import math
+
+n = int(input())
+check = [True]*(n+1)
+answer = []
+for i in range(2, int(math.sqrt(n))+1): # 2부터 입력받은 수까지 확인
+    if check[i]==False: continue
+    for j in range(i+i, n+1, i): # 확인하고자 하는 배수에 해당하는 값을 False
+        check[j]=False
+for i in range(2, n+1):
+    if check[i]==True:
+        answer.append(i)
+print(answer)
+```
