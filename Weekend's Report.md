@@ -143,6 +143,17 @@
 <td>O</td>
 <td>개인 사유로 인한 불참</td>
 </tr>
+<tr>
+<td>2022.09.27</td>
+<td>X</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td></td>
+</tr>
 </table>
 </br>
 
