@@ -1,3 +1,7 @@
+# 10월 SSAFY 커리큘럼
+![image](https://user-images.githubusercontent.com/88377495/193397291-bcf951e5-e5bd-4093-a69a-d0cd3b9019b0.png)
+
+
 # <10월 목표>
 
 ### 월간 목표
