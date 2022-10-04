@@ -57,8 +57,8 @@
 <td>2022.10.04</td>
 <td>O</td>
 <td>O</td>
-<td>O</td>
 <td>사유</td>
+<td>O</td>
 <td>O</td>
 <td>O</td>
 <td>O</td>
