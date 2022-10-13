@@ -123,7 +123,7 @@
 <td>O</td>
 <td>O</td>
 <td>O</td>
-<td>사유</td>
+<td>O</td>
 <td>O</td>
 <td>개인 사유로 인한 불참</td>
 </tr>
