@@ -68,7 +68,7 @@
 - 나혜승 : :white_check_mark: ~~SQLD 1회독 하기, 알고리즘 두문제 풀기~~
 - 이수연 : :white_check_mark: ~~sqld 1회독, 1일 1알고리즘~~
 - 이문삼 : :white_check_mark: ~~진도 따라가기, sqld 공부하기~~
-- 정혜수 : 
+- 정혜수 : :white_check_mark: ~~프로그래머스 JS 풀기, sqld 공부, 블로그에 차근차근 글 올리기~~
 - 김준영 : 
 
 </br>
