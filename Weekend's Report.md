@@ -45,17 +45,17 @@
 <td>비 고</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>2022.11.01</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>사유</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>개인 사유로 인한 불참</td>
 </tr>
 </table>
 </br>
